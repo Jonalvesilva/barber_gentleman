@@ -10,14 +10,14 @@ export function Sobre() {
         </div>
         <div>
           <p className="text-justify text-gray-700 py-4 text-lg">
-            Bem-vindo à Barbearia Shaver, um espaço onde a tradição da barbearia
-            clássica se encontra com a modernidade dos serviços contemporâneos.
-            Localizada no coração da cidade, a Shaver não é apenas um local para
-            cortar cabelo e fazer a barba, mas sim uma experiência única
-            dedicada aos cuidados masculinos.
+            Bem-vindo à Barbearia Gentleman, um espaço onde a tradição da
+            barbearia clássica se encontra com a modernidade dos serviços
+            contemporâneos. Localizada no coração da cidade, a Shaver não é
+            apenas um local para cortar cabelo e fazer a barba, mas sim uma
+            experiência única dedicada aos cuidados masculinos.
           </p>
           <p className="text-justify text-gray-700 py-4 text-lg">
-            Fundada em 2022, a Barbearia Shaver nasceu da paixão por oferecer
+            Fundada em 2022, a Barbearia Gentleman nasceu da paixão por oferecer
             serviços de alta qualidade, combinando técnicas tradicionais de
             barbearia com as últimas tendências em cortes de cabelo e estilos
             modernos. Desde então, temos nos dedicado a proporcionar uma
