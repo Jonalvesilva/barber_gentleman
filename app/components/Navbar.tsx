@@ -16,7 +16,7 @@ export function Navbar() {
     <>
       <div className=" w-full h-[85px] min-[500px]:h-10 bg-[#211d19] min-w-[375px]">
         <div className="flex max-[500px]:flex-col max-[500px]:justify-evenly max-w-screen-lg mx-auto h-[85px] min-[500px]:h-10 justify-between">
-          <div className="flex flex-row items-center justify-center gap-2 ml-4">
+          <div className="flex flex-row items-center justify-center gap-2 ml-10">
             <FaFacebook size={20} className="text-white" />
             <FaInstagram size={20} className="text-white" />
           </div>
