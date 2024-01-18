@@ -27,16 +27,18 @@ export default function Slider() {
         navigation={false}
         modules={[Autoplay, Pagination, Navigation]}
         breakpoints={breakpoints}
-        className="mySwiper"
+        className="mySwiper w-full h-[320px] min-h-[320px]"
       >
         {unidades.map((data) => {
           return (
-            <SwiperSlide className="relative">
+            <SwiperSlide
+              className="relative flex justify-center items-center"
+              key={`${data.name}_unidade`}
+            >
               <img
                 src={data.urlPhoto}
                 alt={data.name}
                 className="w-full h-full"
-                key={data.name}
               />
               <span className="text-white absolute top-0 left-0 p-2 bg-orange-500 rounded-r-sm">
                 {data.name}

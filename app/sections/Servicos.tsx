@@ -2,11 +2,11 @@ import { servicos } from "../constants/servicos";
 
 export function Servicos() {
   return (
-    <section className="h-[300px] flex max-w-screen-lg mx-auto flex-col py-12">
+    <section className=" flex max-w-screen-lg mx-auto flex-col py-12 items-center">
       <div>
         <h2 className="text-3xl pb-8">Nossos Serviços</h2>
       </div>
-      <div className="grid min-[1023px]:grid-cols-4 h-full gap-10">
+      <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-12">
         {servicos.map((data) => {
           return (
             <div

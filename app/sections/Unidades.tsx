@@ -1,5 +1,4 @@
 import Slider from "../components/Slider";
-import { unidades } from "../constants/unidades";
 
 export function Unidades() {
   return (
@@ -12,7 +11,6 @@ export function Unidades() {
           <div className="py-8 w-full">
             <h2 className="text-white text-3xl text-start">Nossas Unidades</h2>
           </div>
-
           <Slider />
         </div>
       </div>

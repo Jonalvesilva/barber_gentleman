@@ -46,7 +46,7 @@ export function Navbar() {
               Unidades
             </Link>
             <Link href="/" className="text-white text-xl px-3">
-              Novidades
+              Serviços
             </Link>
             <Link href="/" className="text-white text-xl px-3">
               Contato
@@ -93,7 +93,7 @@ export function Navbar() {
               </div>
               <div className="flex flex-col items-center">
                 <ul className="uppercase flex flex-col mt-[150px] items-center">
-                  <li onClick={handleNav} className="py-4 ">
+                  <li onClick={handleNav} className="py-4" key="link1">
                     <Link
                       href="/"
                       className="text-3xl text-white hover:text-orange-500 ease-in duration-100"
@@ -101,7 +101,7 @@ export function Navbar() {
                       Sobre
                     </Link>
                   </li>
-                  <li onClick={handleNav} className="py-4">
+                  <li onClick={handleNav} className="py-4" key="link2">
                     <Link
                       href="/"
                       className="text-3xl text-white hover:text-orange-500 ease-in duration-100"
@@ -109,7 +109,7 @@ export function Navbar() {
                       Unidades
                     </Link>
                   </li>
-                  <li onClick={handleNav} className="py-4">
+                  <li onClick={handleNav} className="py-4" key="link3">
                     <Link
                       href="/"
                       className="text-3xl text-white hover:text-orange-500 ease-in duration-100"
@@ -117,7 +117,7 @@ export function Navbar() {
                       Novidades
                     </Link>
                   </li>
-                  <li onClick={handleNav} className="py-4">
+                  <li onClick={handleNav} className="py-4" key="link4">
                     <Link
                       href="/"
                       className="text-3xl text-white hover:text-orange-500 ease-in duration-100"
