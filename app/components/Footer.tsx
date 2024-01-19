@@ -1,3 +1,7 @@
 export function Footer() {
-  return <div></div>;
+  return (
+    <section className="flex bg-orange-500/50 h-[300px]">
+      <div></div>
+    </section>
+  );
 }

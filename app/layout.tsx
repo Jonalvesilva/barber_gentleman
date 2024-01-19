@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Navbar />
-        <main className="min-w-[375px] h-screen w-full">{children}</main>
+        <main className="min-w-[375px] h-full w-full">{children}</main>
         <Footer />
       </body>
     </html>
