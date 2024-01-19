@@ -5,6 +5,7 @@ import { Unidades } from "./sections/Unidades";
 import { Funcionarios } from "./sections/Funcionarios";
 import { Servicos } from "./sections/Servicos";
 import { Depoimentos } from "./sections/Depoimentos";
+import { Contato } from "./sections/Contato";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Funcionarios />
       <Servicos />
       <Depoimentos />
+      <Contato />
     </>
   );
 }

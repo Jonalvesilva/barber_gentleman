@@ -1,16 +1,3 @@
-/*
-.swiper {
-  width: 100%;
-  height: 320px;
-  min-height: 300px;
+.shadowText {
+  text-shadow: 5px 2px 5px black;
 }
-
-.swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}*/
