@@ -17,7 +17,7 @@ export function Navbar() {
     <>
       <div className=" w-full h-[85px] min-[500px]:h-10 bg-[#211d19] min-w-[375px]">
         <div className="flex max-[500px]:flex-col max-[500px]:justify-evenly max-w-screen-lg mx-auto h-[85px] min-[500px]:h-10 justify-between">
-          <div className="flex flex-row items-center justify-center gap-2 ml-10">
+          <div className="flex flex-row items-center justify-center gap-2 ml-2 min-[500px]:ml-4 sm:ml-10">
             <FaFacebook size={20} className="text-white" />
             <FaInstagram size={20} className="text-white" />
           </div>
@@ -53,7 +53,7 @@ export function Navbar() {
               smooth={true}
               offset={-250}
               duration={700}
-              className="text-white text-xl px-3"
+              className="text-white text-xl px-3 cursor-pointer hover:text-orange-500 ease-in duration-100 "
             >
               Sobre
             </Link>
@@ -64,7 +64,7 @@ export function Navbar() {
               smooth={true}
               offset={-70}
               duration={700}
-              className="text-white text-xl px-3"
+              className="text-white text-xl px-3 cursor-pointer hover:text-orange-500 ease-in duration-100 "
             >
               Unidades
             </Link>
@@ -75,7 +75,7 @@ export function Navbar() {
               smooth={true}
               offset={-70}
               duration={900}
-              className="text-white text-xl px-3"
+              className="text-white text-xl px-3 cursor-pointer hover:text-orange-500 ease-in duration-100 "
             >
               Serviços
             </Link>
@@ -86,7 +86,7 @@ export function Navbar() {
               smooth={true}
               offset={-250}
               duration={900}
-              className="text-white text-xl px-3"
+              className="text-white text-xl px-3 cursor-pointer hover:text-orange-500 ease-in duration-100 "
             >
               Contato
             </Link>
@@ -105,7 +105,7 @@ export function Navbar() {
         <div
           className={
             nav
-              ? "sm:hidden fixed left-0 top-0 w-full h-screen bg-gray-200/85"
+              ? "sm:hidden fixed left-0 top-0 w-full h-screen bg-gray-200/85 z-10"
               : ""
           }
         >
@@ -132,33 +132,57 @@ export function Navbar() {
               </div>
               <div className="flex flex-col items-center">
                 <ul className="uppercase flex flex-col mt-[150px] items-center">
-                  <li onClick={handleNav} className="py-4" key="link1">
+                  <li className="py-4" key="link1">
                     <Link
-                      to="/"
-                      className="text-3xl text-white hover:text-orange-500 ease-in duration-100"
+                      activeClass="active"
+                      to="sobre"
+                      spy={true}
+                      smooth={true}
+                      offset={-200}
+                      duration={900}
+                      onClick={handleNav}
+                      className="text-3xl text-white cursor-pointer hover:text-orange-500 ease-in duration-100 "
                     >
                       Sobre
                     </Link>
                   </li>
                   <li onClick={handleNav} className="py-4" key="link2">
                     <Link
-                      to="/"
+                      activeClass="active"
+                      to="unidades"
+                      spy={true}
+                      smooth={true}
+                      offset={-70}
+                      duration={700}
+                      onClick={handleNav}
                       className="text-3xl text-white hover:text-orange-500 ease-in duration-100"
                     >
                       Unidades
                     </Link>
                   </li>
-                  <li onClick={handleNav} className="py-4" key="link3">
+                  <li className="py-4" key="link3">
                     <Link
-                      to="/"
+                      activeClass="active"
+                      to="servicos"
+                      spy={true}
+                      smooth={true}
+                      offset={0}
+                      duration={900}
+                      onClick={handleNav}
                       className="text-3xl text-white hover:text-orange-500 ease-in duration-100"
                     >
-                      Novidades
+                      Serviços
                     </Link>
                   </li>
-                  <li onClick={handleNav} className="py-4" key="link4">
+                  <li className="py-4" key="link4">
                     <Link
-                      to="/"
+                      activeClass="active"
+                      to="contato"
+                      spy={true}
+                      smooth={true}
+                      offset={-70}
+                      duration={900}
+                      onClick={handleNav}
                       className="text-3xl text-white hover:text-orange-500 ease-in duration-100"
                     >
                       Contato
