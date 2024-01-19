@@ -1,10 +1,11 @@
 "use client";
-import Link from "next/link";
+import { Link, animateScroll as scroll } from "react-scroll";
 import { useState } from "react";
 import { AiOutlineClose } from "react-icons/ai";
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { IoMdMenu } from "react-icons/io";
+import { LinkButton } from "./LinkButton";
 
 export function Navbar() {
   const [nav, setNav] = useState(false);
@@ -21,15 +22,21 @@ export function Navbar() {
             <FaInstagram size={20} className="text-white" />
           </div>
           <div className="flex items-center justify-center flex-wrap">
-            <Link href="/" className="px-3 text-white">
+            <LinkButton
+              to="https://www.abf.com.br/"
+              className="px-3 text-white cursor-pointer"
+            >
               Seja um franqueado
-            </Link>
-            <Link href="/" className="px-3 text-white">
+            </LinkButton>
+            <LinkButton to="/" className="px-3 text-white cursor-pointer">
               Acesso Restrito
-            </Link>
-            <Link href="/" className="px-3 text-white">
+            </LinkButton>
+            <LinkButton
+              to="https://www.trinks.com/"
+              className="px-3 text-white cursor-pointer"
+            >
               Agendamentos
-            </Link>
+            </LinkButton>
           </div>
         </div>
       </div>
@@ -39,16 +46,48 @@ export function Navbar() {
             <img src="/assets/logo.jfif" alt="logo" className="w-full h-full" />
           </div>
           <div className="hidden sm:flex items-center justify-center">
-            <Link href="/" className="text-white text-xl px-3">
+            <Link
+              activeClass="active"
+              to="sobre"
+              spy={true}
+              smooth={true}
+              offset={-250}
+              duration={700}
+              className="text-white text-xl px-3"
+            >
               Sobre
             </Link>
-            <Link href="/" className="text-white text-xl px-3">
+            <Link
+              activeClass="active"
+              to="unidades"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={700}
+              className="text-white text-xl px-3"
+            >
               Unidades
             </Link>
-            <Link href="/" className="text-white text-xl px-3">
+            <Link
+              activeClass="active"
+              to="servicos"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={900}
+              className="text-white text-xl px-3"
+            >
               Serviços
             </Link>
-            <Link href="/" className="text-white text-xl px-3">
+            <Link
+              activeClass="active"
+              to="contato"
+              spy={true}
+              smooth={true}
+              offset={-250}
+              duration={900}
+              className="text-white text-xl px-3"
+            >
               Contato
             </Link>
           </div>
@@ -95,7 +134,7 @@ export function Navbar() {
                 <ul className="uppercase flex flex-col mt-[150px] items-center">
                   <li onClick={handleNav} className="py-4" key="link1">
                     <Link
-                      href="/"
+                      to="/"
                       className="text-3xl text-white hover:text-orange-500 ease-in duration-100"
                     >
                       Sobre
@@ -103,7 +142,7 @@ export function Navbar() {
                   </li>
                   <li onClick={handleNav} className="py-4" key="link2">
                     <Link
-                      href="/"
+                      to="/"
                       className="text-3xl text-white hover:text-orange-500 ease-in duration-100"
                     >
                       Unidades
@@ -111,7 +150,7 @@ export function Navbar() {
                   </li>
                   <li onClick={handleNav} className="py-4" key="link3">
                     <Link
-                      href="/"
+                      to="/"
                       className="text-3xl text-white hover:text-orange-500 ease-in duration-100"
                     >
                       Novidades
@@ -119,7 +158,7 @@ export function Navbar() {
                   </li>
                   <li onClick={handleNav} className="py-4" key="link4">
                     <Link
-                      href="/"
+                      to="/"
                       className="text-3xl text-white hover:text-orange-500 ease-in duration-100"
                     >
                       Contato

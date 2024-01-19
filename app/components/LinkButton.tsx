@@ -9,7 +9,12 @@ type tipo = {
 
 export function LinkButton(props: tipo) {
   return (
-    <Link href={props.to} className={props.className} onClick={props.onclick}>
+    <Link
+      href={props.to}
+      className={props.className}
+      onClick={props.onclick}
+      target="_blank"
+    >
       {props.children}
     </Link>
   );

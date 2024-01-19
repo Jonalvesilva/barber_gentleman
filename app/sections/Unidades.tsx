@@ -2,7 +2,7 @@ import Slider from "../components/Slider";
 
 export function Unidades() {
   return (
-    <section className="flex mx-auto items-center justify-center">
+    <section className="flex mx-auto items-center justify-center" id="unidades">
       <div
         style={{ backgroundImage: "url('/assets/bg1.jpg')" }}
         className="h-[600px] w-full flex"

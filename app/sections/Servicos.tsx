@@ -2,7 +2,10 @@ import { servicos } from "../constants/servicos";
 
 export function Servicos() {
   return (
-    <section className=" flex max-w-screen-lg mx-auto flex-col py-12 items-center">
+    <section
+      className=" flex max-w-screen-lg mx-auto flex-col py-12 items-center"
+      id="servicos"
+    >
       <div>
         <h2 className="text-3xl pb-8">Nossos Serviços</h2>
       </div>
