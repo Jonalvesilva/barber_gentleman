@@ -28,15 +28,21 @@ export function Navbar() {
             <LinkButton
               to="https://www.abf.com.br/"
               className="px-3 text-white cursor-pointer"
+              target="_blank"
             >
               Seja um franqueado
             </LinkButton>
-            <LinkButton to="/" className="px-3 text-white cursor-pointer">
+            <LinkButton
+              to="/"
+              className="px-3 text-white cursor-pointer"
+              target="_blank"
+            >
               Acesso Restrito
             </LinkButton>
             <LinkButton
               to="https://www.trinks.com/"
               className="px-3 text-white cursor-pointer"
+              target="_blank"
             >
               Agendamentos
             </LinkButton>

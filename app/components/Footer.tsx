@@ -7,7 +7,7 @@ export function Footer() {
         style={{ backgroundImage: "url('assets/bg3.jpg')" }}
         className="flex bg-cover bg-center bg-no-repeat h-full py-12 justify-center items-center min-w-[375px] "
       >
-        <div className="flex max-w-screen-xl mx-auto bg-black h-full flex-col lg:flex-row w-[80%] gap-y-12 lg:w-[90%] lg:gap-x-10 lg:items-center lg:p-8 rounded-xl">
+        <div className="flex max-w-screen-xl mx-auto bg-black/85 h-full flex-col lg:flex-row w-[80%] gap-y-12 lg:w-[90%] lg:gap-x-10 lg:items-center lg:p-8 rounded-xl">
           <div className="flex flex-col items-center justify-center">
             <div className="w-32">
               <img src="assets/logonobg.png" className="w-full h-full"></img>

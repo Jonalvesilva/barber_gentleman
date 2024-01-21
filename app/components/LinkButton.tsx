@@ -5,6 +5,7 @@ type tipo = {
   className?: string;
   children: any;
   onclick?: any;
+  target?: string;
 };
 
 export function LinkButton(props: tipo) {
@@ -13,7 +14,7 @@ export function LinkButton(props: tipo) {
       href={props.to}
       className={props.className}
       onClick={props.onclick}
-      target="_blank"
+      target={props.target}
     >
       {props.children}
     </Link>
