@@ -6,6 +6,7 @@ import { Funcionarios } from "./sections/Funcionarios";
 import { Servicos } from "./sections/Servicos";
 import { Depoimentos } from "./sections/Depoimentos";
 import { Contato } from "./sections/Contato";
+import { BottomMenu } from "./components/BottomMenu";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Servicos />
       <Depoimentos />
       <Contato />
+      <BottomMenu />
     </>
   );
 }

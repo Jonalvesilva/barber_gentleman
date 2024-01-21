@@ -35,5 +35,5 @@ export const enderecos = [
   { name: "Caxias", endereco: "Travessa da Lua, 789 - Estrelado" },
   { name: "Rio de Janeiro", endereco: "Praça da Magia, 321 - Encantado" },
   { name: "Nilopólis", endereco: "Alameda das Fábulas, 567 - Flores" },
-  { name: "Nova Iguaçu", endereco: "Rodovia da Imaginação, 890 - Laranjal" },
+  { name: "Nova Iguaçu", endereco: "Rua da Imaginação, 890 - Laranjal" },
 ];
