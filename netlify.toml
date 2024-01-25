@@ -1,7 +1,8 @@
+[build.processing]
+	skip_processing = true
+  
 [[redirects]]
   from = "/*"
   to = "/"
   status = 200
 
-  [build.processing]
-	skip_processing = true
