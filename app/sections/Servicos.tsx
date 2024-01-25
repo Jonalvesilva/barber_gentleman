@@ -15,6 +15,7 @@ export function Servicos() {
             <div
               className="shadow shadow-black w-[250px] h-[250px] flex flex-col items-center justify-center gap-4 bg-amber-300/60
               scale-100 hover:scale-105 ease-in duration-300"
+              key="servicos"
             >
               <div className="w-28 rounded-full bg-white">
                 <img src={data.urlPhoto} className="p-6"></img>

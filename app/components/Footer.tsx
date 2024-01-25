@@ -24,7 +24,7 @@ export function Footer() {
             <div className="lg:pb-1"></div>
             {horarios.map((data) => {
               return (
-                <div className="flex flex-row justify-between">
+                <div className="flex flex-row justify-between" key="data">
                   <h3 className="text-white">{data.semana}</h3>
                   <h3 className="text-white">{data.horario}</h3>
                 </div>
@@ -40,7 +40,10 @@ export function Footer() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-y-3 pt-2 lg:grid-cols-1 lg:gap-y-1">
               {enderecos.map((data) => {
                 return (
-                  <div className="flex p-2 justify-between max-lg:flex-col max-lg:items-center lg:p-0 ">
+                  <div
+                    className="flex p-2 justify-between max-lg:flex-col max-lg:items-center lg:p-0 "
+                    key="endereco"
+                  >
                     <h3 className="text-white lg:p-0">{data.name}</h3>
                     <h3 className="text-white lg:p-0">{data.endereco}</h3>
                   </div>
