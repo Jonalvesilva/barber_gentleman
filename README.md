@@ -1,5 +1,5 @@
 <h1>Projeto Barber Gentleman</h1>
-<p>Landing Page para uma ONG fictícia chamada Gentleman</p>
+<p>Landing Page para uma barbearia fictícia chamada Gentleman</p>
 <h2>Status</h2>
 <img src="https://img.shields.io/badge/Finalizado-28a745"/>
 <h2>Tecnologias</h2>
@@ -41,9 +41,8 @@
 <h2>Fotos</h2>
 <table>
   <tr>
-    <td><img src="https://media.licdn.com/dms/image/D4D2DAQH9RFV_9RZblA/profile-treasury-image-shrink_1280_1280/0/1707254783491?e=1714564800&v=beta&t=_QiOI9TaxPkqwBTTm8OxkhOOMm7kaqUDtEdzxm1sDCM" 
-      width=500 heigth=400/></td>
-    <td> <img src="https://media.licdn.com/dms/image/D4D2DAQEVO0h1_NFfrw/profile-treasury-image-shrink_800_800/0/1707254797089?e=1714564800&v=beta&t=dEhOpjqEx95n87TnEcyVM0Mr7q5LAF9_fl6d1Sbhddw" width=450  heigth=400 /></td>
+    <td><img src="https://drive.google.com/uc?export=view&id=1WQI1uDep_TZH-xSbVbdQZIrW2_lHquL-" width="500"/></td>
+    <td> <img src="https://drive.google.com/uc?export=view&id=1tEo_hXCPcz4bSwkNwgcsN-Nbu3esbKd6" width="500"/></td>
   </tr>
 </table>
 <h2>Contribuição</h2>
